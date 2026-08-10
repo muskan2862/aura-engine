@@ -8,6 +8,17 @@ Aura Engine provides an enterprise-style interface for monitoring and managing i
 
 The application focuses on performance and usability when working with large datasets, using server-side pagination and debounced search to prevent unnecessary browser workload.
 
+##  Dashboard
+![image alt]()
+
+##  Inventory
+![image alt]()
+![image alt]()
+
+## Home 
+![image alt]()
+
+
 ##  Features
 
 ###  Inventory Management
@@ -53,8 +64,6 @@ The application focuses on performance and usability when working with large dat
 ###  UI & UX
 - Responsive design
 - Mobile-friendly navigation
-- Hamburger menu
-- Light and dark mode
 - Professional enterprise dashboard interface
 - Responsive charts and tables
 

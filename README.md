@@ -16,7 +16,7 @@ The application focuses on performance and usability when working with large dat
 ![image alt](https://github.com/muskan2862/aura-engine/blob/f8c5bc132b8bf08fb6c86737b0ee07dd5a4aa690/Screenshot%202026-08-10%20161557.png)
 
 ## Home 
-![image alt]()
+![image alt](https://github.com/muskan2862/aura-engine/blob/dd71337197dedec282e2158d168c698ee5e0b181/Screenshot%202026-08-10%20161531.png)
 
 
 ##  Features

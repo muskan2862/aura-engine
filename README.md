@@ -9,7 +9,7 @@ Aura Engine provides an enterprise-style interface for monitoring and managing i
 The application focuses on performance and usability when working with large datasets, using server-side pagination and debounced search to prevent unnecessary browser workload.
 
 ##  Dashboard
-![image alt]()
+![image alt](https://github.com/muskan2862/aura-engine/blob/99462ff9d5200ed7b5b179796d8fcd43bdfa8eaf/Screenshot%202026-08-10%20161544.png)
 
 ##  Inventory
 ![image alt]()

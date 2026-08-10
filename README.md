@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Aura Engine
 
-## Getting Started
+A modern enterprise inventory management dashboard built with Next.js and React. Aura Engine is designed to handle large inventory datasets efficiently while providing fast search, filtering, sorting, analytics, and CSV export capabilities.
 
-First, run the development server:
+##  Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Aura Engine provides an enterprise-style interface for monitoring and managing inventory data.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The application focuses on performance and usability when working with large datasets, using server-side pagination and debounced search to prevent unnecessary browser workload.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+##  Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+###  Inventory Management
+- Enterprise inventory data table
+- Server-side pagination
+- Displays up to 50 records per page
+- Sticky table headers
+- Responsive table layout
+- Loading and empty states
 
-## Learn More
+###  Search & Filtering
+- Global inventory search
+- 500ms debounced search
+- Search by:
+  - Product name
+  - SKU
+  - Category
+- Category filtering
+- Stock-level filtering
+- Minimum and maximum price filtering
+- Reset filters functionality
 
-To learn more about Next.js, take a look at the following resources:
+### ↕ Sorting
+- Sort inventory by price
+- Ascending and descending sorting
+- Server-side sorting through API parameters
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+###  Analytics Dashboard
+- Total SKU count
+- Total inventory value
+- Out-of-stock item count
+- Restock Priority chart
+- Top 10 lowest-stock products
+- Portfolio Distribution chart
+- Inventory valuation by category
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+###  CSV Export
+- Export currently filtered inventory data
+- Generates CSV directly in the browser
+- Automatic file download
+- Proper CSV escaping for commas, quotes, and line breaks
 
-## Deploy on Vercel
+###  UI & UX
+- Responsive design
+- Mobile-friendly navigation
+- Hamburger menu
+- Light and dark mode
+- Professional enterprise dashboard interface
+- Responsive charts and tables
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+##  Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js**
+- **React**
+- **JavaScript**
+- **Tailwind CSS**
+- **Recharts**
+- **REST API**
+- **URLSearchParams**
+- **Git & GitHub**
+
+##  Architecture
+
+```text
+Aura Engine
+│
+├── Dashboard
+│   ├── KPI Cards
+│   ├── Restock Priority
+│   └── Portfolio Distribution
+│
+├── Inventory
+│   ├── Search
+│   ├── Filters
+│   ├── Sorting
+│   ├── Pagination
+│   └── CSV Export
+│
+├── API
+│   ├── Inventory API
+│   └── Inventory Summary API
+│
+├── Services
+│   └── Inventory Service
+│
+├── Features
+│   ├── Dashboard
+│   └── Inventory
+│
+└── Utilities
+    └── CSV Export

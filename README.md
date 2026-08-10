@@ -12,7 +12,7 @@ The application focuses on performance and usability when working with large dat
 ![image alt](https://github.com/muskan2862/aura-engine/blob/99462ff9d5200ed7b5b179796d8fcd43bdfa8eaf/Screenshot%202026-08-10%20161544.png)
 
 ##  Inventory
-![image alt]()
+![image alt](https://github.com/muskan2862/aura-engine/blob/7001ff5dd808c5c16fd0ffca4b051753baf262fc/Screenshot%202026-08-10%20161619.png)
 ![image alt]()
 
 ## Home 
